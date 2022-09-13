@@ -1,0 +1,55 @@
+.banner {
+    --column-width: 320px;
+    --gap: #{getMinMax(24px, 48px)};
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 36px;
+
+    &-subtitle {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: getMinMax(16px, 22px);
+        line-height: 145%;
+        color: var(--text-color-1);
+    }
+
+    &-item {
+        position: relative;
+        padding: 80px;
+        padding-left: 0;
+        padding-right: 70px;
+        min-height: 532px;
+        &.has-img {
+            z-index: 0;
+            padding: 0;
+
+            &>* {
+                position: absolute;
+                bottom: 0;
+                left: 63px;
+            }
+        }
+    }
+
+    @include less-sm() {
+        &-item {
+            min-height: auto;
+            padding-top: 28px;
+            padding-bottom: 28px;
+            padding-left: 28px;
+            padding-right: 28px;
+            &.has-img {
+                padding-top: 148px;
+
+                &>* {
+                    top: -20px;
+                    left: 0;
+                    bottom: auto;
+                }
+            }
+        }
+    }
+}

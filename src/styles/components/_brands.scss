@@ -1,0 +1,28 @@
+.brands {
+    align-items: center;
+
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.8em;
+    }
+
+    &-item {
+        flex: 0 0 getMinMax(132px, 168px);
+        margin-bottom: calc(16/18)*1em;
+    }
+    @include more-sm(){
+        &-item {
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    @include less-sm() {
+        display: flex;
+        flex-direction: column;
+    }
+}
