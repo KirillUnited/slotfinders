@@ -108,6 +108,8 @@ export default function IndexPage({data}) {
     )
 };
 
+export const Head = () => <Seo title="Light theme" />
+
 export const query = graphql`
   query {
     allFile(filter: {relativeDirectory: {eq: "games"}}) {
