@@ -1,7 +1,7 @@
 ---
 title: "Sophie Tremblay"
-desc: "Manager"
-avatar: "../../images/Slotfinders/avatar.jpg"
+desc: "HR"
+avatar: "../../images/Slotfinders/Sophie Tremblay.jpg"
 rating: 5
 ---
 #### I'm fascinated!

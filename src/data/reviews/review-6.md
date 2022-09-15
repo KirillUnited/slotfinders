@@ -1,7 +1,7 @@
 ---
 title: "Susan Johnson"
-desc: "Manager"
-avatar: "../../images/avatar.jpg"
+desc: "Unemployed"
+avatar: "../../images/Slotfinders/Susan Johnson.jpg"
 rating: 1
 ---
 #### Cannot find the old games

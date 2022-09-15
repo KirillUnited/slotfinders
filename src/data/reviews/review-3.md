@@ -1,7 +1,7 @@
 ---
 title: "Tommy M. Carter"
-desc: "Manager"
-avatar: "../../images/Slotfinders/avatar-2.jpg"
+desc: "Analyst"
+avatar: "../../images/Slotfinders/Tommy M. Carter.jpg"
 rating: 2
 ---
 #### Sleepless nights...

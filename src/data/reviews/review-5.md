@@ -1,7 +1,7 @@
 ---
 title: "Brooklyn Evans"
-desc: "Soccer player"
-avatar: "../../images/avatar-1.jpg"
+desc: "Dancer"
+avatar: "../../images/Slotfinders/Brooklyn Evans.jpg"
 rating: 3
 ---
 #### Good ones

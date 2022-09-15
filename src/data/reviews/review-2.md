@@ -1,7 +1,7 @@
 ---
 title: "Robert J. Smith"
-desc: "Soccer player"
-avatar: "../../images/avatar-2.jpg"
+desc: "Tutor"
+avatar: "../../images/Slotfinders/Robert J. Smith.jpg"
 rating: 5
 ---
 #### Play without a risk

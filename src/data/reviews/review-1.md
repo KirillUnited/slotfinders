@@ -1,7 +1,7 @@
 ---
-title: "Terry MacDonald "
-desc: "Manager"
-avatar: "../../images/avatar-1.jpg"
+title: "Terry Macdonald"
+desc: "Personal Trainer"
+avatar: "../../images/Slotfinders/Terry Macdonald.jpg"
 rating: 5
 ---
 #### Won't ask you to sign up
