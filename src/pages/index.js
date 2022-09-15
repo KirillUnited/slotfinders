@@ -68,17 +68,17 @@ export default function IndexPage({data}) {
                     <Section content={`content`}>
                         <div className="vw-grid vw-grid-col-4 vw-grid-col-fill">
                             {nodes.map((game, index) => {
-                                const {title, image} = game.childMarkdownRemark.frontmatter;
+                                const {title, image, url} = game.childMarkdownRemark.frontmatter;
 
                                 return (
-                                    <div className="vw-grid-item" key={index}>
+                                    <a href={url} target="_blank" rel="noreferrer" className="vw-grid-item" key={index}>
                                         <GatsbyImage
                                             alt={title}
                                             image={image.childImageSharp.gatsbyImageData}
                                             style={{marginBottom: "24px"}}
                                         />
                                         <h4 style={{fontSize: "16px", fontWeight: "600"}}>{title}</h4>
-                                    </div>
+                                    </a>
                                 )
                             })}
                         </div>
@@ -125,6 +125,7 @@ export const query = graphql`
               )
               }
             }
+            url
           }
         }
       }
