@@ -8,11 +8,9 @@ import HeaderMobile from "./headerMobile";
 import { useState } from "react";
 import Modal from "../modal/modal";
 import Form, {FormInput} from "../form/form";
-import Email from "../../images/Email.svg";
 import iPhoneX from "../../images/iPhoneX.svg";
 import Address from "../../images/Address.svg";
 import Calendar from "../../images/Calendar.svg";
-import Password from "../../images/Password.svg";
 
 const Header = (props) => {
     const [menuActive, setMenuActive] = useState(false);
@@ -41,8 +39,8 @@ const Header = (props) => {
                             <FormInput type="phone" id={`phone`} name={`phone`} placeholder="Phone number">
                                 <img src={iPhoneX} className={`form-input-icon`} alt="phone"/>
                             </FormInput>
-                            <FormInput type="text" id={`address`} name={`address`} placeholder="Address">
-                                <img src={Address} className={`form-input-icon`} alt="address"/>
+                            <FormInput type="text" id={`country`} name={`country`} placeholder="Country">
+                                <img src={Address} className={`form-input-icon`} alt="country"/>
                             </FormInput>
                             <FormInput type="text" id={`birthdate`} name={`birthdate`} placeholder="Birthdate">
                                 <img src={Calendar} className={`form-input-icon`} alt="birthdate"/>
