@@ -19,7 +19,7 @@ const Reviews = () => {
               avatar {
                 childImageSharp {
                   gatsbyImageData (
-                      quality: 90, 
+                      quality: 50, 
                       layout: CONSTRAINED, 
                       width: 64
                   )
